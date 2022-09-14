@@ -1,28 +1,274 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Responsive Navbar</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fa fa-bars"></i>
-      </label>
-      <label class="logo">CP</label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Feedback</a></li>
-      </ul>
-    </nav>
-    <section></section>
-  </body>
+    <title>Cheatn Patil</title>
+
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <script src="https://kit.fontawesome.com/f16c32ecbc.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Chetan Patil</a>
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <!-- <li><a href="#services">Services</a></li> -->
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Home -->
+ 
+    <section class="home" id="home">
+        <div class="social">
+            <a href="#"><i class='fa-brands fa-github'></i></a>
+            <a href="#"><i class='fa-brands fa-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-dribbble' ></i></a>
+        </div>
+        <div class="home-img">
+            <img src="image/portfolio profile pic.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Chetan Patil</h1>
+            <h2>Java Developer</h2>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+ 
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="image/chetan.jpeg" alt="">
+            </div>
+            <div class="about-text">
+                <p>Innovative, task-driven professional with a strong understanding of web development, along with 30 weeks(1000+ hrs) of coding experience and excellent communication skills, seeking an entry-level position to begin my career in a high-level professional environment to make use of my interpersonal skills to achieve the goals of a company and to intensify my skillset along the way.</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user' ></i>
+                        <span>Chetan Patil</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone' ></i>
+                        <span>+91 8788577485</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>cp02589@gmail.com</span>
+                    </div>
+                </div>
+                <a href="image/MAC 101 Resume.pdf"  download class="btn">Download Cv</a>
+                
+                
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>94%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 -->
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>84%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>74%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <h3>Java</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>MYSQL</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Spring Boot</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>HiberNate</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="123.png" alt="">
+            </div>
+        </div>
+ 
+    </section>
+    <!-- Services -->
+    
+
+    <!-- Portfolio -->
+     <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="image/blog-2.jpg" alt="">
+                
+                <div class="project">
+                    <h1>J.Crew Clone</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Inventore unde, sunt quam tenetur mollitia perferendis itaque. 
+                        Nam, beatae odio! Doloribus et fugiat suscipit delectus, maiores deserunt
+                         dolor reprehenderit eius eligendi?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Inventore unde, sunt quam tenetur mollitia perferendis itaque. 
+                    </p>
+                    <p>HTML | CSS | React | Node| Express | MongoDB</p>
+
+                    <div class="btn-1">
+                        <a href=""><button class="btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</button></a>
+                        <a href=""><button class="btn"><i class="fa-brands fa-github"></i>  Git</button></a>
+                    </div>
+
+                    
+                </div>
+
+            </div>
+            <div class="portfolio-img">
+                <img src="image/blog-3.jpg" alt="">
+                <div class="project">
+                    <h1>J.Crew Clone</h1>
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Inventore unde, sunt quam tenetur mollitia perferendis itaque. 
+                        Nam, beatae odio! Doloribus et fugiat suscipit delectus, maiores deserunt
+                         dolor reprehenderit eius eligendi?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Inventore unde, sunt quam tenetur mollitia perferendis itaque. 
+                    </p>
+                    <p>HTML | CSS | React | Node| Express | MongoDB</p>
+
+                    <div class="btn-1">
+                        <a href=""><button class="btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</button></a>
+                        <a href=""><button class="btn"><i class="fa-brands fa-github"></i>  Git</button></a>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </section> 
+    
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Us</span>
+        </div>
+        <div class="contact-form">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name">
+                <input type="email" name="Email" id="" placeholder="Your Email">
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="submit" value="Send" class="contact-button">
+                <!-- <button type="submit" class="contact-button">Submit</button> -->
+            </form>
+            <span id="msg"></span>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Coding Home</h2>
+        <div class="footer-social">
+            <a href="#"><i class='fa-brands fa-github' ></i></a>
+            <a href="#"><i class='fa-brands fa-linkedin' ></i></a>
+            <a href="#"><i class='fa-brands fa-facebook' ></i></a>
+            <a href="#"><i class='fa-brands fa-instagram' ></i></a>
+        </div>
+ 
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Create By <a href="">Chetan Patil</a> | All Right Reserved.</p>
+    </div>
+ 
+ 
+ 
+    <!-- Link To JS -->
+    <script src="./js/script.js"></script>
+</body>
 </html>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbykBSqwOrBb60afSyvaHPgG3TQbPUFL8ocPPkJoexLUcuJqy7ZBLXNTpvTzX3hCEdFaLg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Messege sent successfully"
+            setTimeout(() => {
+                msg.innerHTML=""
+            }, 2000);
+
+            form.reset();
+        
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
