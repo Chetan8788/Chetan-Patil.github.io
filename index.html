@@ -8,6 +8,7 @@
 
     <!-- Link To CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://aniket427.github.io/github-calendar-responsive.css" />
     <!-- Box Icons -->
     <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
@@ -100,13 +101,13 @@
                 <!-- Box 4 -->
                 <div class="bars-box">
                     <h3>Java</h3>
-                    <img src="image/Java-Logo.png" alt="">
+                    <img src="image/java 2.png" alt="">
                     <div class="light-bar"></div>
                     <div class="percent-bar react-bar"></div>
                 </div>
                 <div class="bars-box">
                     <h3>MYSQL</h3>
-                    <img src="image/MySQL-Logo.wine_.png" alt="">
+                    <img src="image/my sql 2.png" alt="">
                     <div class="light-bar"></div>
                     <div class="percent-bar react-bar"></div>
                 </div>
@@ -237,6 +238,10 @@
             </div>
         </div>
     </div>
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data.
+    </div>
     
     <!-- Contact -->
     <section class="contact" id="contact">
@@ -300,5 +305,10 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
+  </script>
+  <script src="https://aniket427.github.io/github-calendar.min.js"></script>
+  <script>
+      
+      GitHubCalendar(".calendar", "Chetan8788", { responsive: true });
   </script>
 
