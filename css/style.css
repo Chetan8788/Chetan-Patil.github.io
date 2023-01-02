@@ -11,10 +11,10 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: #22d24b;
-  --bg-color: rgb(29, 55, 182);
-  --text-color: #e8e8f0;
-  --hover: #22d24b;
+  --main-color: #f0580f;
+  --bg-color: rgb(255, 255, 255);
+  --text-color: #080808;
+  --hover: #151515;
  
   --big-font: 3.2rem;
   --medium-font: 1.8rem;
@@ -105,15 +105,18 @@ header.shadow {
 
   order: 3;
   /* border: 1px solid black; */
-  margin-top: 40px;
+  /* margin-top: 40px; */
   /* width: 350px; */
-  height: 400px;
+  /* height: auto; */
 
 }
 .home-img img {
-  width: 100%;
-  height: 100%;
-
+  margin-left: 20%;
+  margin-top: 20%;
+  width: 80%;
+  height: 60%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .home-text span {
   font-size: var(--medium-font);
@@ -153,6 +156,10 @@ header.shadow {
 }
 .btn:hover {
   background: var(--hover);
+}
+
+.calendar{
+  color: #000;
 }
 
 /* .about{
@@ -321,6 +328,10 @@ i{
   align-items: center;
   justify-content: center;
   gap: 20px;
+
+}
+.btn{
+  border: none;
 }
 /* .btn .btn1{
   margin-right: 10px;
@@ -352,11 +363,15 @@ i{
   display: grid;
   place-items: center;
   margin-top: 2rem;
+  /* border: 1px solid black; */
 }
 .contact-form form {
   display: flex;
   flex-direction: column;
   width: 650px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 form input,
 textarea {
@@ -381,7 +396,7 @@ form textarea {
   width: 160px;
   height: 50px;
   cursor: pointer;
-  background: #2768d9;
+  background: #f0580f;
   color: #fff;
   justify-content: center;
   text-transform: uppercase;
@@ -403,7 +418,7 @@ form textarea {
   margin-bottom: 1.6rem;
 }
 .footer-social a i{
-  color: rgb(10, 26, 208);
+  color: #f0580f;
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
@@ -452,7 +467,7 @@ form textarea {
 }
 .copyright {
   padding: 20px;
-  background: rgb(29, 55, 182);
+  background: #151515;
   text-align: center;
   color: #fff;
 }
@@ -552,6 +567,15 @@ i{
     display: flex;
     justify-content: center;
   }
+
+  .portfolio-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+  }
+
   .skills-container {
     grid-template-columns: 1fr;
   }
@@ -565,6 +589,7 @@ i{
   }
   .contact-form form{
     width: 300px;
+    /* border: 1px solid black; */
   }
   .contact-button{
     margin-left: 25%;
